@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>GALERIA</title>
+  </head>
+  <body>
+    <script src="js/bootstrap.min.js"></script>
+
+    <header >
+      <a href="index.html"><img
+        src="imagenes/ntur.png"
+        alt="nutria logo"
+        width="100px"
+        height="100px"
+        class="logo"
+        id="principio"
+      /></a>
+      <div>
+        <nav class="nav">
+          <a href="index.html">INICIO</a>
+          <a href="detalles.html">DETALLES</a>
+          <a href="galeria.html">GALERIA DE IMAGENES</a>
+          <a href="contacto.html">CONTACTO</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container-form">
+        <div>
+          <h3>CONTACTO</h3> 
+        </div>
+        <form action="https://formsubmit.co/frameyt12@gmail.com" method="POST">
+          <div class="input-group">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre" style="border-radius: 10px;">
+
+            <label for="email">Correo</label>
+            <input type="email" name="email" id="email" placeholder="Correo" style="border-radius: 10px;">
+
+            <label for="date">Fecha de Nacimiento</label>
+            <input type="date" name="date" id="date" placeholder="date" style="border-radius: 10px;">
+
+            <label for="message">Mensaje</label>
+            <textarea type="message" name="message" id="message" placeholder="(opcional)" style="border-radius: 10px;margin-bottom: 15px;resize: none;overflow: auto;"></textarea >
+            
+              <input type="submit" value="Enviar" class="btn-submit" style="border-radius: 10px;">
+            
+          </div>
+          
+      </div>
+
+      </form>
+     
+    </main>
+    <footer>
+        <p>Francisco Matus &copy;2023</p>
+    </footer>
+</body>
+</html>
